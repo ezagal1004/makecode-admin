@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1e1e2e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: #2b2b3a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Title */
+.title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Controls */
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Dropdowns */
+.dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #3b3b4f;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropdown:hover {
+    background: #4e4e66;
+}
+
+/* Project List */
+.project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-item {
+    background: #3b3b4f;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.project-item:hover {
+    background: #5a5a75;
+}
+
+/* Open Button Styles */
+.open-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.blue-btn {
+    background: #007bff;
+}
+
+.blue-btn:hover {
+    background: #0056b3;
+}
+
+.red-btn {
+    background: #ff4c4c;
+    cursor: not-allowed;
+}
